@@ -1,0 +1,81 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/mypage/mypage",
+        "pages/entrustHome/entrustHome",
+        "pages/login/login"
+    ],
+    "subpackages": [
+        {
+            "root": "Adminpackage",
+            "name": "adminpacket",
+            "pages": [
+                "managerHome/managerHome",
+                "managerAdmin/managerAdmin",
+                "managerEntrust/managerEntrust",
+                "EntrustDetail/EntrustDetail",
+                "PublishedDetail/PublishedDetail"
+            ]
+        },
+        {
+            "root": "Companypackage",
+            "name": "companypacket",
+            "pages": [
+                "saleEntrust/saleEntrust",
+                "rentOutEntrust/rentOutEntrust",
+                "steps/steps",
+                "secondHandHouse/secondHandHouse",
+                "newHouse/newHouse",
+                "rentingHouse/rentingHouse",
+                "houseDetail/houseDetail",
+                "rentingHouseDetail/rentingHouseDetail",
+                "myentrust/myentrust",
+                "mycollection/mycollection"
+            ]
+        }
+    ],
+    "window": {
+        "navigationBarTitleText": "北洋找房小程序",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#B0B0B0",
+        "selectedColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "white",
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "pages/image/home-selected.png",
+                "selectedIconPath": "pages/image/home-selected.png"
+            },
+            {
+                "pagePath": "pages/entrustHome/entrustHome",
+                "text": "发布房源",
+                "iconPath": "pages/image/entrust-bar-selected.png",
+                "selectedIconPath": "pages/image/entrust-bar-selected.png"
+            },
+            {
+                "pagePath": "pages/mypage/mypage",
+                "text": "我的",
+                "iconPath": "pages/image/my.png",
+                "selectedIconPath": "pages/image/my.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "usingComponents": {
+        "van-cell-group": "./dist/cell-group/index",
+        "van-divider": "./dist/divider/index",
+        "van-field": "./dist/field/index",
+        "van-notice-bar": "./dist/notice-bar/index",
+        "van-tab": "./dist/tab/index",
+        "van-tabs": "./dist/tabs/index",
+        "van-dropdown-menu": "./dist/dropdown-menu/index",
+        "van-dropdown-item": "./dist/dropdown-item/index"
+    },
+    "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,8 @@
+/* pages/managerHome/managerHome.wxss */
+.list-box {
+    height: 135px;
+}
+.list-box image{
+    width: 100%;
+    height: 100%;
+}
